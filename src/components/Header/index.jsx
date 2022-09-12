@@ -4,19 +4,23 @@ import { useContext } from 'react';
 
 
 
-export function Header({ name }) {
+export function Header() {
 
     const { handleSignOut } = useContext(AuthGoogleContext)
 
+    const getInfo = sessionStorage.getItem("@AuthFirebase:user")
+    const user = JSON.parse(getInfo)
+    
     return (
         <header className="headerContainer">
             <div className="headerContent">
                 <nav>
                     <a className='active' href="/Home">Home</a>
-                    <a href="#">Entrevista</a>
+                    <a className='active' href="/Entrevista">Entrevista</a>
                 </nav>
 
-
+                <h4>Bem vindo, {user.displayName}🚀🚀</h4>
+                
                 <button onClick={() => handleSignOut()}>Sair</button>
             </div>
         </header>

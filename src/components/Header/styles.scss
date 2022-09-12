@@ -12,6 +12,15 @@
     display: flex;
     align-items: center;
 
+    h4{
+        margin-left: auto;
+    }
+    img {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 20px;
+        margin-left: 4px;
+    }
     nav {
         margin-left: 5rem;
         height: 5rem;
@@ -31,7 +40,7 @@
             }
 
             &:hover {
-                color: var(--white);
+                color: var(--cyan-500);
             }
 
             &.active {
