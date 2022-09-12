@@ -2,9 +2,8 @@ import { GoogleLogo } from 'phosphor-react'
 import { useContext } from 'react';
 import { Navigate } from 'react-router-dom';
 import { AuthGoogleContext } from '../../contexts/authGoogle';
-import ti from '../../assets/ti.jpg'
 import './styles.scss';
-
+import girl from '../../assets/avatar.svg'
 
 export function Login() {
 
@@ -16,21 +15,22 @@ export function Login() {
 
     if (!signed) {
         return (
+            <main className='contentContainer'>
 
-            <div className='areaLogin'>
-                <div className='login'>
-                    <div>
-                        <img src="" alt="" />
-                    </div>
-
+                <section className='hero'>
+                    <h1>Ola, <span>Bem vindo!!</span></h1>
+                    <h1>Tudo sobre Gestão de TI está aqui</h1>
+                    <p>
+                        Entre utilizando sua conta Google<br />
+                    </p>
                     <button type="button" className="button" onClick={handleLogin}>
                         <GoogleLogo />
                         Entrar com Google
                     </button>
-                </div>
-            </div>
+                </section>
 
-
+                <img src={girl} alt="Girl coding" />
+            </main >
         )
     }
     else {
