@@ -16,7 +16,6 @@ export function Header() {
             <div className="headerContent">
                 <nav>
                     <a className='active' href="/Home">Home</a>
-                    <a className='active' href="/Entrevista">Entrevista</a>
                 </nav>
 
                 <h4>Bem vindo, {user.displayName}🚀🚀</h4>

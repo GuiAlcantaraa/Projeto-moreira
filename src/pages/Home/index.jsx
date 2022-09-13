@@ -9,7 +9,7 @@ import { useContext } from 'react';
 
 export function Home() {
 
-    const { signed, user } = useContext(AuthGoogleContext);
+    const { signed } = useContext(AuthGoogleContext);
 
     if (signed) {
         return (
@@ -58,6 +58,9 @@ export function Home() {
 
                     Fonte: <a href="https://www.findup.com.br/gestao-de-ti-estrategica/" target="_blank">https://www.findup.com.br/gestao-de-ti-estrategica/</a>
                 </div>
+                    <br />
+                <h1 className='title'><u>Entrevista com Gestor</u></h1><br />
+
             </>
 
         )
