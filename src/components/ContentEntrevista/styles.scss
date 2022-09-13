@@ -1,0 +1,26 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.content {
+    ul {
+        margin-right: 2rem;
+    }
+}
+
+.topicos {
+    margin-left: 2rem;
+
+    li {
+        font-size: 18px;
+        margin-top: 0.5rem;
+        font-weight: bold;
+    }
+
+    p {
+        margin-top: 0.5rem;
+    }
+}

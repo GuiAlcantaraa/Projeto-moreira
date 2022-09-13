@@ -12,15 +12,17 @@
     display: flex;
     align-items: center;
 
-    h4{
+    h4 {
         margin-left: auto;
     }
+
     img {
         height: 2rem;
         width: 2rem;
         border-radius: 20px;
         margin-left: 4px;
     }
+
     nav {
         margin-left: 5rem;
         height: 5rem;
@@ -83,4 +85,26 @@
             filter: brightness(0.8);
         }
     }
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    span {
+        margin: 0 10px;
+    }
+
+    svg {
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--yellow-500);
+        }
+    }
+
+
+    margin-left: 35rem;
 }
