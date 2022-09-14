@@ -3,7 +3,7 @@ import { AuthGoogleContext } from '../../contexts/authGoogle';
 import { useContext } from 'react';
 
 import { SignOut } from 'phosphor-react'
-
+import uni from '../../assets/uniaraxa.png'
 
 
 export function Header() {
@@ -16,20 +16,16 @@ export function Header() {
     return (
         <header className="headerContainer">
             <div className="headerContent">
-                <nav>
-                    <a className='active' href="/Home">Home</a>
-                </nav>
-
+                <img src={uni} alt="uni" />
                 <div className='logout'>
-                    <h3><small>Bem vindo, </small>
+                    <h4><small>Bem vindo, </small>
                         {user.displayName}
-                    </h3>
+                    </h4>
 
                     <span>|</span>
 
                     <SignOut
                         onClick={() => handleSignOut()}
-
                         size={25}
                     />
                 </div>

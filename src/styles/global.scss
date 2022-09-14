@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+* {
+    scrollbar-width: 14px;
+    /* none | auto  */
+    scrollbar-color: var(--yellow-500) transparent;
+}
+
+/* Firefox */
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+    width: 14px;
+    /* vertical scrollbar */
+    height: 14px;
+    /* horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--yellow-500);
+    border-radius: 14px;
+    border: calc(12px / 4) solid rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow-500);
+}
+
 :root {
     --white: #ffffff;
 
@@ -40,6 +70,9 @@
 body {
     background: var(--gray-900);
     color: var(--white);
+
+    // overflow-y: hidden;
+
 }
 
 body,

@@ -35,18 +35,19 @@ export function ContentGestao() {
                 <br />
 
                 <div className='styleContent'>
-                    <p>O TI estratégico consegue direcionar as ações para maior economia de recursos e eficiência integral das equipes,
-                        podendo promover a geração de incremento de vendas, melhoria de serviços, produtos, atendimento e diversos outros benefícios.
-                        Com profissionais engajados e capacitados, sobrepujando práticas de apenas fornecer suporte, recursos ou ferramentas,
-                        é possível que o setor de TI se torne um ativo importante para os projetos da companhia.
-                        Para isso, é necessário que os objetivos da área estejam em consonância com os da instituição.
+                    <p>
+                        Gestão estrategica de ti é um conceito muito importante para a empresa, porque seus principais focos são administração dos recursos e soluções de tecnologia,
+                        quando isso é colocado em pratica estrategicamente os resultados da empresa tendem a entrar em uma constante evolução, trazendo diversos beneficios para a empresa.
                     </p>
                 </div>
                 <br />
 
                 Fonte: <a href="https://www.findup.com.br/gestao-de-ti-estrategica/" target="_blank">https://www.findup.com.br/gestao-de-ti-estrategica/</a>
+                <br />
+                <br />
+                <br />
+
             </div>
-            <br />
 
         </>
     )

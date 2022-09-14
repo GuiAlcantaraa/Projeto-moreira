@@ -15,11 +15,11 @@ export function Home() {
 
     if (signed) {
         return (
-            <>
+            <main>
                 <Header />
                 <ContentGestao />
                 <ContentEntrevista />
-            </>
+            </main>
 
         )
     } else {

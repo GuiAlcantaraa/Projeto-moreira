@@ -9,6 +9,8 @@
     ul {
         margin-right: 2rem;
     }
+
+    border-bottom: 2px solid var(--gray-800);
 }
 
 .topicos {
@@ -23,4 +25,22 @@
     p {
         margin-top: 0.5rem;
     }
+}
+
+.photoGestor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        border-radius: 60px;
+        height: 150px;
+    }
+}
+
+.gestorDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
