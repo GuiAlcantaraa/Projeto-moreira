@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './styles.scss'
 import { AuthGoogleContext } from '../../contexts/authGoogle';
 import { useContext } from 'react';
@@ -17,6 +18,12 @@ export function Header() {
         <header className="headerContainer">
             <div className="headerContent">
                 <img src={uni} alt="uni" />
+
+                {/* <nav>
+                    <NavLink to="/Itil" title="Sobre Itil">
+                        <button>Sobre itil</button>
+                    </NavLink>
+                </nav> */}
                 <div className='logout'>
                     <h4><small>Bem vindo, </small>
                         {user.displayName}

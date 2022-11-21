@@ -5,7 +5,7 @@ export function ContentEntrevista() {
         <>
             <h1 className='title'><u>Entrevista com Gestor</u></h1> <br />
             <div className='photoGestor'>
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE_Svf_iOkfxQ/profile-displayphoto-shrink_800_800/0/1540421462591?e=1668643200&v=beta&t=fgNKzTToMC9Bf-shle52XNcNm6Rme_fa6TC0-bdpRGs" alt="" />
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE_Svf_iOkfxQ/profile-displayphoto-shrink_100_100/0/1540421462591?e=1674691200&v=beta&t=stoOgbZQ6bgMbvt3wx0At19fbkuVCW_j_kA-QiSUEh8" alt="" />
             </div>
             <p className='gestorDesc'>Giovani Silva | Coordenador de desenvolvimento de sistemas</p><br /><br />
 
